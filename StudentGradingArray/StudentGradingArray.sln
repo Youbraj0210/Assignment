@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentGradingArray", "StudentGradingArray\StudentGradingArray.csproj", "{1475D358-4F60-4240-AD19-D572BD7767F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1475D358-4F60-4240-AD19-D572BD7767F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1475D358-4F60-4240-AD19-D572BD7767F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1475D358-4F60-4240-AD19-D572BD7767F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1475D358-4F60-4240-AD19-D572BD7767F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52648C29-9F12-4162-B164-FC3016043BBC}
+	EndGlobalSection
+EndGlobal
