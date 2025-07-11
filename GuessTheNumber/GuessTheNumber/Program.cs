@@ -8,9 +8,15 @@
             int generatedNumber = rnd.Next(1, 100);
             int guessedNumber;
             int tries = 0;
+            int maxTries = 5;
 
             do
             {
+                if(tries == maxTries)
+                {
+                    Console.WriteLine("Max tries Reached!");
+                    return;
+                }
                 Console.Write("Guess a number between 1 and 100:");
                 guessedNumber = int.Parse(Console.ReadLine());
 
