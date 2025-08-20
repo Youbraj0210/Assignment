@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    justify-content: center; 
+    gap: 2rem;
+
+}
+
+.flex-row {
+    display: flex;           
+    flex-wrap: wrap;         
+    gap: 1rem;               
+    justify-content: center; 
+    max-width: 1000px;
+}
+
+.circle {
+    background: aqua;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;      
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.slider{
+    width:100%;
+    max-width: 750px;  
+}
